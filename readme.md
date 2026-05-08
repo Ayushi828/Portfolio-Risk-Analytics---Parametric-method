@@ -7,11 +7,11 @@ This project is a simple implementation of a portfolio risk model using Value at
 
 The project builds an equity portfolio from NSE and evaluates its risk using:
 
---Historical log returns
---Portfolio variance (covariance matrix)
---Parametric Value at Risk (VaR)
---Multi-day risk scaling
---Visual distribution of returns
+- Historical log returns
+- Portfolio variance (covariance matrix)
+- Parametric Value at Risk (VaR)
+- Multi-day risk scaling
+- Visual distribution of returns
 
 It helps simulate how much a portfolio can lose under normal market conditions with a given confidence level.
 
@@ -21,9 +21,9 @@ It helps simulate how much a portfolio can lose under normal market conditions w
 
 The calculation of the VaR requires the calculation of the portfolio's standard deviations as a pre-requisite.This method uses statistical approach and follow a normal distribution:
 
---Calculate mean and standard deviation
---Use Z-score for chosen confidence level
---Calculate VaR using:
+- Calculate mean and standard deviation
+- Use Z-score for chosen confidence level
+- Calculate VaR using:
 $$    VaR = μ - (Z * σ)
 
 This method assumes that:
