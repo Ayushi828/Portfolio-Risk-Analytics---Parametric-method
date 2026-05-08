@@ -24,7 +24,8 @@ The calculation of the VaR requires the calculation of the portfolio's standard 
 - Calculate mean and standard deviation
 - Use Z-score for chosen confidence level
 - Calculate VaR using:
-$$    VaR = μ - (Z * σ)
+  
+                    VaR = μ - (Z * σ)
 
 This method assumes that:
 - Returns follow a normal distribution  
